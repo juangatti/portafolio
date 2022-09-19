@@ -11,29 +11,29 @@ export default function Menu_eng() {
 
     return (
         <>
-            <ul className='hidden  md:flex' >
-                <li>
-                    <Link to='home' smooth={true} duration={500}>
+            <ul className='hidden md:flex' >
+                <li >
+                    <Link className=' hover:text-pink-600 hover:border-pink-600' to='home' smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to='about' smooth={true} duration={500}>
+                    <Link className=' hover:text-pink-600 hover:border-pink-600' to='about' smooth={true} duration={500}>
                         About
                     </Link>
                 </li>
                 <li>
-                    <Link to='skills' smooth={true} duration={500}>
+                    <Link className=' hover:text-pink-600 hover:border-pink-600' to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
                 </li>
                 <li>
                     {
                         (lenguage === "ENG_eng")
-                            ? <Link to='work' smooth={true} duration={500}>
+                            ? <Link className=' hover:text-pink-600 hover:border-pink-600' to='work' smooth={true} duration={500}>
                                 Trabajos
                             </Link>
-                            : <Link to='work' smooth={true} duration={500}>
+                            : <Link className=' hover:text-pink-600 hover:border-pink-600' to='work' smooth={true} duration={500}>
                                 Work
                             </Link>
                     }
@@ -41,10 +41,10 @@ export default function Menu_eng() {
                 <li>
                     {
                         (lenguage === "ENG_eng")
-                            ? <Link to='contact' smooth={true} duration={500}>
+                            ? <Link className=' hover:text-pink-600 hover:border-pink-600' to='contact' smooth={true} duration={500}>
                                 Contacto
                             </Link>
-                            : <Link to='contact' smooth={true} duration={500}>
+                            : <Link className=' hover:text-pink-600 hover:border-pink-600' to='contact' smooth={true} duration={500}>
                                 Contact
                             </Link>
                     }
