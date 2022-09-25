@@ -6,7 +6,7 @@ const intialState = {
 
 export default function rootReducer(state = intialState, action) {
     switch (action.type) {
-        case 'Es_es':
+        case 'ES_es':
             return{
                 ...state,
                 lenguage: action.payload
