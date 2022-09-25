@@ -69,7 +69,7 @@ export default function Work() {
                         Countryvity App
                         </span>
                         <div className='pt-8 text-center' >
-                            <a href="/https://countryvity-juangatti.vercel.app/">
+                            <a href="https://countryvity-juangatti.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ' >
                                     Demo
                                 </button>
