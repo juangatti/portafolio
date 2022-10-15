@@ -21,16 +21,15 @@ export default function About() {
                     <div className='sm:text-right text-4xl font-bold' >
                         {
                             (lenguage === "ENG_eng")
-                            ?<p>Hola!. Soy Juan, encantado de conocerte. Por favor hecha un vistazo</p>
+                            ?<p>Hola! Soy Juan, encantado de conocerte.</p>
                             :<p>HI. I'm Juan, nice to meet you. Please take a look around.</p>
                         }
                     </div>
                     <div> {
                         (lenguage === "ENG_eng")
-                        ?<p> Soy un apasionado de construir excelente software que mejora la vida de los que me rodea. 
-                        Me especializo en la creacion de software que van para personas individuales a pequeños 
-                        negocios de todos los rumbos. ¿Que harias si tuvieras un experto en software disponible 
-                        al alcanze de tu mano?</p>
+                        ?<p> Soy una persona muy curiosa que siempre esta en la búsqueda de como funcionan las cosas e intentar 
+                            mejorarlas para para facilitarle la vida a las personas. Esto me a ayudado a lo largo de mi camino en 
+                            la programación</p>
                         :<p> I am passionate about building excellent sofware that improves
                         the live of those around me. I specialize in creating sofware
                         for clients ranging from individuals and small-businesses all the
