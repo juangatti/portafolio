@@ -30,11 +30,9 @@ export default function About() {
                         ?<p> Soy una persona muy curiosa que siempre esta en la búsqueda de como funcionan las cosas e intentar 
                             mejorarlas para para facilitarle la vida a las personas. Esto me a ayudado a lo largo de mi camino en 
                             la programación</p>
-                        :<p> I am passionate about building excellent sofware that improves
-                        the live of those around me. I specialize in creating sofware
-                        for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations. What would you do if had 
-                        a software expert available at your fingerprints?</p>
+                        :<p> I am a very curious person who is always looking for how things work and trying
+                        improve them to make life easier for people. This has helped me along my way in
+                        The programing</p>
                         }
                         
                     </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
-import Cv_ENG from '../../assets/CV_ENG.pdf'
+import Cv_ENG from '../../assets/CV_EN.pdf'
 import Cv_ES from '../../assets/CV_ES.pdf'
 import JGLogo from '../../assets/JGLogo.png'
 import { useSelector } from 'react-redux'

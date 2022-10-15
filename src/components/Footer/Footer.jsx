@@ -3,7 +3,7 @@ import {  FaGithub, FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useSelector } from 'react-redux';
-import Cv_ENG from '../../assets/CV_ENG.pdf'
+import Cv_ENG from '../../assets/CV_EN.pdf'
 import Cv_ES from '../../assets/CV_ES.pdf'
 
 export default function Footer() {
