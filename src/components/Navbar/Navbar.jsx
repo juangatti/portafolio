@@ -4,7 +4,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Cv_ENG from '../../assets/CV_EN.pdf'
 import Cv_ES from '../../assets/CV_ES.pdf'
-import JGLogo from '../../assets/JGLogo.png'
+import  LogoJG from '../../assets/LogoJG.svg'
 import { useSelector } from 'react-redux'
 import MenuEng from './Menu_eng';
 import { Link } from 'react-scroll'
@@ -25,7 +25,7 @@ export default function Navbar() {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#19192e] text-gray-300' >
             <div>
-                <img src={JGLogo} alt="Logo" style={{ width: '80px' }} />
+                <img src={LogoJG} alt="Logo" style={{ width: '80px' }} />
             </div>
 
 
