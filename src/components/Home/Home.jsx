@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <div name='home' className='w-full  h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full  h-screen bg-[#19192e]'>
 
       {/* Container */}
       {(lenguage === "ENG_eng")

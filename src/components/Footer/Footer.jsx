@@ -11,7 +11,7 @@ export default function Footer() {
     const lenguage = useSelector((state) => state.lenguage)
 
     return (
-        <div className='flex lg:hidden  w-full h-[120px] bg-[#0a192f]  justify-center items-center p-4 '>
+        <div className='flex lg:hidden  w-full h-[120px] bg-[#19192e]  justify-center items-center p-4 '>
             <ul className='absolute right-0'>
                 <li className='flex justify-between items-center '>
                     <a className='flex justify-between items-center w-full text-gray-300 hover:text-pink-600 hover:border-pink-600 '

@@ -8,7 +8,7 @@ export default function Work() {
     const lenguage = useSelector((state) => state.lenguage)
 
   return (
-    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='w-full md:h-screen text-gray-300 bg-[#19192e]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justifiy-center w-full h-full' >
             <div className='pb-8' >
                 {

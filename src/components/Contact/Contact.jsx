@@ -7,7 +7,7 @@ export default function Contact() {
 
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 '>
+    <div name='contact' className='w-full h-screen bg-[#19192e] flex justify-center items-center p-4 '>
         <form method='POST' action='https://getform.io/f/16de45fd-7768-49b5-bb82-e885d24b29a1' className='flex flex-col max-w-[600px] w-full'>
             <div className='pb-8'>
               {
