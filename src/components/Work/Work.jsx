@@ -1,6 +1,7 @@
 import React from 'react'
 import WorkImg from '../../assets/workImg.jpeg'
 import realEstate from '../../assets/realestate.jpg'
+import RecipesImg from '../../assets/AllrecipescalendarApp.jpg'
 import { useSelector } from 'react-redux'
 
 export default function Work() {
@@ -35,7 +36,7 @@ export default function Work() {
 
                 {/* Grid Item */}
                 <div
-                 style={{backgroundImage: `url(${WorkImg})`}} 
+                 style={{backgroundImage: `url(${RecipesImg})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
