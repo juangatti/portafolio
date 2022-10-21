@@ -2,6 +2,8 @@ import React from 'react'
 import WorkImg from '../../assets/workImg.jpeg'
 import realEstate from '../../assets/realestate.jpg'
 import RecipesImg from '../../assets/AllrecipescalendarApp.jpg'
+import Countrivity from '../../assets/Countrivity.jpg'
+import WorkInProgress from '../../assets/workinprogress.jpg'
 import { useSelector } from 'react-redux'
 
 export default function Work() {
@@ -61,13 +63,13 @@ export default function Work() {
                 
                 {/* Grid Item */}
                 <div
-                 style={{backgroundImage: `url(${realEstate})`}} 
+                 style={{backgroundImage: `url(${Countrivity})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className=' text-2xl font-bold text-white tracking-wider'>
-                        Countryvity App
+                        Countrivity App
                         </span>
                         <div className='pt-8 text-center' >
                             <a href="https://countryvity-juangatti.vercel.app/">
@@ -85,13 +87,13 @@ export default function Work() {
                 </div>
                    {/* Grid Item */}
                    <div
-                 style={{backgroundImage: `url(${WorkImg})`}} 
+                 style={{backgroundImage: `url(${WorkInProgress})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className=' text-2xl font-bold text-white tracking-wider'>
-                        React JS Application
+                        ReactNative Application
                         </span>
                         <div className='pt-8 text-center' >
                             <a href="/">
@@ -110,7 +112,7 @@ export default function Work() {
                 
                 {/* Grid Item */}
                 <div
-                 style={{backgroundImage: `url(${realEstate})`}} 
+                 style={{backgroundImage: `url(${WorkInProgress})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
@@ -134,7 +136,7 @@ export default function Work() {
                 </div>
                    {/* Grid Item */}
                    <div
-                 style={{backgroundImage: `url(${WorkImg})`}} 
+                 style={{backgroundImage: `url(${WorkInProgress})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
@@ -159,7 +161,7 @@ export default function Work() {
                 
                 {/* Grid Item */}
                 <div
-                 style={{backgroundImage: `url(${realEstate})`}} 
+                 style={{backgroundImage: `url(${WorkInProgress})`}} 
                  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                   
                     {/* Hover Effects */}
