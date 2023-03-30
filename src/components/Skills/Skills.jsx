@@ -8,6 +8,10 @@ import Node from '../../assets/node.png';
 import GitHub from '../../assets/github.png';
 import Tailwind from '../../assets/tailwind.png';
 import Mongo from '../../assets/mongo.png';
+import Next from '../../assets/nextjs.svg'
+import TypeScript from '../../assets/typescript.svg'
+import PostgreSql from '../../assets/postgresql.svg'
+import Bootstrap from '../../assets/bootstrap.svg'
 import { useSelector } from 'react-redux';
 
 export default function Skills() {
@@ -43,15 +47,23 @@ export default function Skills() {
                 <p className='my-4'>JavaScript</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
+                <img className='w-20 mx-auto ' src={TypeScript} alt="TypeScript" />
+                <p className='my-4'>TypeScript</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
                 <img className='w-20 mx-auto ' src={ReactImg} alt="ReactImg icon" />
                 <p className='my-4'>React</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                <img className='w-20 mx-auto ' src={GitHub} alt="Node icon" />
+                <img className='w-20 mx-auto ' src={Next} alt="Next.js" />
+                <p className='my-4'>Next.js</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
+                <img className='w-20 mx-auto ' src={GitHub} alt="GitHub" />
                 <p className='my-4'>GitHub</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                <img className='w-20 mx-auto ' src={Node} alt="FireBAse icon" />
+                <img className='w-20 mx-auto ' src={Node} alt="NodeJs" />
                 <p className='my-4'>NodeJS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
@@ -59,8 +71,16 @@ export default function Skills() {
                 <p className='my-4'>MongoDB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
-                <img className='w-20 mx-auto ' src={Tailwind} alt="GitHub icon" />
+                <img className='w-20 mx-auto ' src={PostgreSql} alt="PostgreSql" />
+                <p className='my-4'>PostgreSql</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
+                <img className='w-20 mx-auto ' src={Tailwind} alt="TailWind" />
                 <p className='my-4'>TailWind</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'> 
+                <img className='w-20 mx-auto ' src={Bootstrap} alt="Boostrap" />
+                <p className='my-4'>Boostrap</p>
               </div>
             </div>
         </div>
